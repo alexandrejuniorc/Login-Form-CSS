@@ -88,6 +88,11 @@ header {
   padding: 12px;
 }
 
+.info-input input {
+  margin-left: 10px;
+  color: var(--primary-color);
+}
+
 .info-input:hover,
 .info-input:focus-within {
   border: 1px solid var(--primary-color);
@@ -146,6 +151,7 @@ label {
   height: 20px;
   transition: 0.1s;
   padding-right: 5px;
+  cursor: pointer;
 }
 
 #lembrar:checked {
@@ -159,12 +165,20 @@ label {
   width: max-content;
 }
 
+.opcao-lembrar label {
+  cursor: pointer;
+}
+
 input[type='checkbox']:checked {
   accent-color: var(--primary-color);
 }
 
 .opcao-esqueceu-senha {
   white-space: nowrap;
+}
+
+.opcao-esqueceu-senha:hover a {
+  color: var(--second-color);
 }
 
 .opcao-esqueceu-senha a {
@@ -193,6 +207,20 @@ input[type='checkbox']:checked {
   line-height: 27px;
   letter-spacing: 0.015em;
   color: var(--text-bottom);
+  cursor: pointer;
+}
+
+.btn-entrar:hover {
+  background: var(--second-color);
+}
+
+.btn-entrar a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-bottom);
+}
+.btn-entrar a:visited {
+  color: var(--text-bottom);
 }
 
 .registrar {
@@ -204,4 +232,9 @@ input[type='checkbox']:checked {
   font-size: 14px;
   line-height: 21px;
   color: var(--primary-color);
+  cursor: pointer;
+}
+
+.registrar:hover p {
+  color: var(--second-color);
 }
