@@ -1,0 +1,30 @@
+@media (max-width: 1300px) {
+  .imagem-login {
+    display: none;
+  }
+
+  .login {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    margin-left: 25px;
+  }
+
+  .login {
+    background: none;
+    margin-top: 100px;
+  }
+
+  .segura-info {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+  }
+
+  .segura-form {
+    margin: 0 20px;
+  }
+}
